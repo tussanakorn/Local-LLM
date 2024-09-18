@@ -6,4 +6,5 @@ response = ollama.chat(model='llama3.1', messages=[
     'content': 'Why is the sky blue?',
   },
 ])
+
 print(response['message']['content'])
